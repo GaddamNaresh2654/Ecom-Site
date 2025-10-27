@@ -1,0 +1,66 @@
+ body{
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+            /* background-image: url("./assets/homephoto.jpg"); */
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        header{
+            background-color: aqua;
+            width: 100%;
+            height: 60px;
+            position:fixed;
+            top: 0px;
+            /* background-attachment: fixed; */
+        }
+        ul{
+            display: flex;
+            list-style-type: none;
+            margin: 5px;
+            place-content:center;
+        }
+        ul li{
+            margin: 12px;
+            padding:5px;
+            text-transform:uppercase;
+
+        }
+        li:hover{
+            background-color: rgb(49, 207, 221);
+            border-radius: 10px;
+            transform: scale(1.3s);
+        }
+        #first-div1{
+            margin-top: 3.7rem;
+            height: 300px;
+            background-color: aquamarine;
+            border: 3px solid rgb(255, 255, 255);
+            border-style:outset;
+            display: flex;
+        }
+        #first-div1 #box1{
+            width: 200px;
+            height: 280px;
+            background-color: rgb(242, 239, 239);
+            margin: 10px;
+            padding-left: 32px;
+
+        }
+         #first-div2{
+            margin-top: 2px;
+            height: 300px;
+            background-color: aquamarine;
+            border: 3px solid white;
+            border-style: outset;
+            display: flex;
+        }
+        #first-div2 #box2{
+            width: 200px;
+            height: 280px;
+            background-color: rgb(242, 239, 239);
+            margin: 10px;
+             padding-left: 32px;
+
+        }
